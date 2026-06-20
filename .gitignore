@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Data & logs (snapshots are baseline reference, whitelist them)
+data/
+!data/snapshots/
+
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Local config
+.env
+.env.local
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Playwright artefacts
+.playwright-cli/
+
+# 部署相关
+deploy/keys/
+deploy/xray-*.log
+deploy/geoip*.dat
+deploy/geosite.dat
+deploy/xray-proxy.json
